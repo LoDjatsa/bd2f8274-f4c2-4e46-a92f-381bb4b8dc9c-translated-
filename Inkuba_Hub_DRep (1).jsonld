@@ -1,0 +1,116 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Inkuba_Hub_DRep",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://docs.google.com/document/d/1phtcmmNayu38Zh4eD94WJCJEok1j8naO0N-fyPaTBMQ/edit?usp=sharing",
+      "sha256": "f880f97a3ed459494836c9e88b041e21c61bf28b1a089f954769b0092e0a11ff"
+    },
+    "motivations": "I'm motivated by the chance to contribute to a pioneering governance model at this critical stage in Cardano's evolution. My passion for education, decentralisation, community building, innovation, translation and interpretation has led me to study and follow Cardano's development closely, and I'm excited by the prospect of taking a more active role in its governance. ",
+    "objectives": "My conviction is that Cardano can demonstrate how blockchain technology can address real governance challenges in traditional systems, creating models that might inspire change in regions struggling with centralized control. Through inclusive governance, we can build systems that truly represent the needs and aspirations of global communities.\nMy core belief is that blockchain governance must break beyond language barriers. As a francophone, I've experienced how language exclusion limits participation in global systems. Cardano has the opportunity to lead in creating multilingual governance processes that welcome voices from all backgrounds. Diverse perspectives make the ecosystem more resilient and innovative.",
+    "paymentAddress": "addr1q8u02sdj7w8fh2fzkwl796ujhqthuge907dccwfah94qh45tfmacsqmjw0t98nal8xw8tacjc4ad56jtzqc5y0dn3u8s66g342",
+    "qualifications": "1. Active participation in Cardano community since 2022, organising several workshops both in person and online\n2. Cardano Hub Lead in Burkina Faso since 2022, establishing local community presence and driving ecosystem growth\n3. Successfully facilitated comprehensive blockchain development training focused on Haskell programming for 10 participants, with participants who have gone on to implement blockchain solutions addressing real challenges in Burkina Faso.\n4. Contitutional Delegate participating in finalising the Cardano constitution\nBilingual proficiency: French (native), English (fluent)\n4. Proven ability to translate complex technical concepts into practical knowledge that enables real-world applications\n5. Demonstrated ability to analyze complex proposals and communicate implications clearly\n6. Translated the draft Cardano Contitution in French and reviewed the French version of the final Contitution",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "X account",
+        "uri": "https://x.com/InkubaA"
+      },
+      {
+        "@type": "Link",
+        "label": "YouTube Channel",
+        "uri": "https://www.youtube.com/channel/UCHiIS5MCydwHk-OXkF8AtdA"
+      },
+      {
+        "@type": "Identity",
+        "label": "This is the url of the Inkuba Hub Website",
+        "uri": "https://www.inkubahub.org/"
+      },
+      {
+        "@type": "Identity",
+        "label": "Hosting the Cardano Summit in 2022",
+        "uri": "https://docs.google.com/document/d/12dOflEWxoBpGa9hhDdbURzL1k5J_262LuT4IPFQUBuM/edit?usp=sharing"
+      },
+      {
+        "@type": "Identity",
+        "label": "Cip-1684 Workshop in Accra - 2023",
+        "uri": "https://docs.google.com/document/d/1jwHcFM20d9zGIKiQXT_FiSpgmtXifLgRSUvF_ILm9EE/edit?usp=sharing"
+      },
+      {
+        "@type": "Identity",
+        "label": "Synthesis Constitutional Worshop in Kenya - 2024",
+        "uri": "https://docs.google.com/document/d/1E363ZY2NeEy4E72fcdgmCbviRrjPjYGvEsZCO_sUUeA/edit?usp=sharing"
+      },
+      {
+        "@type": "Identity",
+        "label": "Constitutional Convention - Kenya 2024",
+        "uri": "https://docs.google.com/document/d/1wmI98gj6JX4jd1YlztmK5PHMVj4qb9oYaiqkPqPjyzQ/edit?usp=sharing"
+      },
+      {
+        "@type": "Identity",
+        "label": "Hosting a Constitutional Workshop in Bobo Dioulasso",
+        "uri": "https://docs.google.com/document/d/1ykblNvpXA9ULXUO4gIWH1roqPLEASSrCdy-2zDr4o2s/edit?tab=t.0"
+      }
+    ]
+  }
+}
